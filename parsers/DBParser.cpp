@@ -1,10 +1,10 @@
-#include "DBParser.h"
+#include "DBParser.hpp"
 #include <vector>
 #include <string>
 #include <sstream>
 #include <iomanip>
 #include <map>
-#include "core/Logger.h"
+#include "core/Logger.hpp"
 #include "json.hpp"
 
 using json = nlohmann::json;

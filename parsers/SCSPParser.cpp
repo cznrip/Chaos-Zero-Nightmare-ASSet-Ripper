@@ -1,4 +1,4 @@
-#include "SCSPParser.h"
+#include "SCSPParser.hpp"
 #include "json.hpp"
 #include <stdexcept>
 #include <algorithm>

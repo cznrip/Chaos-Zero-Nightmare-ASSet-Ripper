@@ -2,8 +2,8 @@
 
 #include <string>
 #include "nuklear.h"
-#include "core/Core.h"
-#include "gui/AppState.h"
+#include "core/Core.hpp"
+#include "gui/AppState.hpp"
 
 bool is_sct_format(const std::string &ext);
 bool is_db_file(const std::string &ext);

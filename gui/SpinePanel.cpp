@@ -1,4 +1,4 @@
-#include "parsers/SpineRenderer.h"
+#include "parsers/SpineRenderer.hpp"
 
 #include <algorithm>
 #include <cmath>
@@ -11,15 +11,15 @@
 #include <GL/glew.h>
 #include <SDL.h>
 
-#include "core/Core.h"
-#include "core/FileTree.h"
-#include "core/DialogPaths.h"
-#include "parsers/SCTParser.h"
-#include "parsers/SCSPParser.h"
+#include "core/Core.hpp"
+#include "core/FileTree.hpp"
+#include "core/DialogPaths.hpp"
+#include "parsers/SCTParser.hpp"
+#include "parsers/SCSPParser.hpp"
 #include "parsers/SpineDictionary.h"
-#include "gui/AppState.h"
-#include "gui/UIHelpers.h"
-#include "gui/SpinePanel.h"
+#include "gui/AppState.hpp"
+#include "gui/UIHelpers.hpp"
+#include "gui/SpinePanel.hpp"
 
 #include "json.hpp"
 #include "nuklear.h"

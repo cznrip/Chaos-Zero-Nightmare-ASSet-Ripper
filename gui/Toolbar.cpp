@@ -4,14 +4,14 @@
 
 #include <SDL.h>
 
-#include "core/Core.h"
-#include "core/FileTree.h"
-#include "core/DialogPaths.h"
-#include "archive/IArchive.h"
-#include "gui/AppState.h"
-#include "gui/FileBrowserPanel.h"
-#include "gui/PreviewPanel.h"
-#include "gui/Toolbar.h"
+#include "core/Core.hpp"
+#include "core/FileTree.hpp"
+#include "core/DialogPaths.hpp"
+#include "archive/IArchive.hpp"
+#include "gui/AppState.hpp"
+#include "gui/FileBrowserPanel.hpp"
+#include "gui/PreviewPanel.hpp"
+#include "gui/Toolbar.hpp"
 
 #include "nuklear.h"
 

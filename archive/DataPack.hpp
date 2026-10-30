@@ -1,11 +1,11 @@
 #pragma once
-#include "core/Core.h"
+#include "core/Core.hpp"
 #include <string>
 #include <vector>
 #include <functional>
 #include <atomic>
 #include <windows.h>
-#include "ArchiveBase.h"
+#include "ArchiveBase.hpp"
 
 class DataPack : public ArchiveBase {
 public:

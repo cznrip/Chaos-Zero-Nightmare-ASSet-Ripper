@@ -23,13 +23,13 @@ file(GLOB SPINE_CPP_SOURCES "libs/spine-cpp/src/spine/*.cpp")
 
 # Sources shared by the GUI and the headless CLI
 set(CZN_CORE_SOURCES
-    archive/DataPack.cpp
-    archive/ArchiveBase.cpp
-    archive/SSRArchive.cpp
-    archive/CompositeArchive.cpp
-    parsers/SCTParser.cpp
-    parsers/DBParser.cpp
-    parsers/SCSPParser.cpp
+        archive/DataPack.cpp
+        archive/ArchiveBase.cpp
+        archive/SSRArchive.cpp
+        archive/CompositeArchive.cpp
+        parsers/SCTParser.cpp
+        parsers/DBParser.cpp
+        parsers/SCSPParser.cpp
     libs/zstd/zstddeclib.c
 )
 
@@ -51,17 +51,17 @@ target_link_libraries(czn_core PUBLIC astc-encoder::astcenc-static Threads::Thre
 add_executable(
     ${PROJECT_NAME} WIN32
     main.cpp
-    gui/App.cpp
-    gui/AppState.cpp
-    gui/UIHelpers.cpp
-    gui/Popups.cpp
-    gui/PreviewPanel.cpp
-    gui/FileBrowserPanel.cpp
-    gui/SpinePanel.cpp
-    gui/Toolbar.cpp
+        gui/App.cpp
+        gui/AppState.cpp
+        gui/UIHelpers.cpp
+        gui/Popups.cpp
+        gui/PreviewPanel.cpp
+        gui/FileBrowserPanel.cpp
+        gui/SpinePanel.cpp
+        gui/Toolbar.cpp
     $<TARGET_OBJECTS:czn_core>
     parsers/SpineDictionary.cpp
-    parsers/SpineRenderer.cpp
+        parsers/SpineRenderer.cpp
     ${SPINE_CPP_SOURCES}
 )
 

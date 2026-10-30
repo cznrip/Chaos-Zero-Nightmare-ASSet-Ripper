@@ -1,6 +1,6 @@
 #pragma once
-#include "Core.h"
-#include "RipperOptions.h"
+#include "Core.hpp"
+#include "RipperOptions.hpp"
 #include "portable-file-dialogs.h"
 #include <filesystem>
 #include <string>

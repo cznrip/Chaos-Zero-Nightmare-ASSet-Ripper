@@ -1,5 +1,5 @@
 #define NOMINMAX
-#include "gui/App.h"
+#include "gui/App.hpp"
 #include <iostream>
 #include <string>
 #include <future>
@@ -11,17 +11,17 @@
 #include <fstream>
 #include <SDL_image.h>
 
-#include "core/Core.h"
-#include "core/FileTree.h"
-#include "core/RipperOptions.h"
-#include "gui/AppState.h"
-#include "gui/Popups.h"
-#include "gui/PreviewPanel.h"
-#include "gui/FileBrowserPanel.h"
-#include "gui/SpinePanel.h"
-#include "gui/Toolbar.h"
+#include "core/Core.hpp"
+#include "core/FileTree.hpp"
+#include "core/RipperOptions.hpp"
+#include "gui/AppState.hpp"
+#include "gui/Popups.hpp"
+#include "gui/PreviewPanel.hpp"
+#include "gui/FileBrowserPanel.hpp"
+#include "gui/SpinePanel.hpp"
+#include "gui/Toolbar.hpp"
 #include "parsers/SpineDictionary.h"
-#include "parsers/SpineRenderer.h"
+#include "parsers/SpineRenderer.hpp"
 
 // nuklear implementations
 #define NK_IMPLEMENTATION

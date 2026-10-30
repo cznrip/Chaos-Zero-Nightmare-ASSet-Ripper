@@ -1,9 +1,9 @@
-#include "DataPack.h"
+#include "DataPack.hpp"
 #include <filesystem>
 #include <fstream>
 #include <algorithm>
 #include <array>
-#include "core/Logger.h"
+#include "core/Logger.hpp"
 
 namespace
 {

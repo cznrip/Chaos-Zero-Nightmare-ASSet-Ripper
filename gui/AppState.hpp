@@ -22,8 +22,8 @@
 #include "nuklear.h"
 
 #include "json.hpp"
-#include "core/Core.h"
-#include "archive/IArchive.h"
+#include "core/Core.hpp"
+#include "archive/IArchive.hpp"
 #include "parsers/SpineDictionary.h"
 
 class SpineViewer;

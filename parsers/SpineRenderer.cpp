@@ -1,11 +1,11 @@
 #define NOMINMAX
-#include "SpineRenderer.h"
+#include "SpineRenderer.hpp"
 #include "SpineDictionary.h"
-#include "archive/IArchive.h"
-#include "SCSPParser.h"
-#include "SCTParser.h"
+#include "archive/IArchive.hpp"
+#include "SCSPParser.hpp"
+#include "SCTParser.hpp"
 
-#include "core/Logger.h"
+#include "core/Logger.hpp"
 #include "json.hpp"
 
 #include <SDL.h>

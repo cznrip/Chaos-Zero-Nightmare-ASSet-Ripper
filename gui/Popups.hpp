@@ -1,6 +1,6 @@
 #pragma once
 
-#include "gui/AppState.h"
+#include "gui/AppState.hpp"
 
 void save_options_to_ini();
 void load_options_from_ini();

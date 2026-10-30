@@ -1,4 +1,4 @@
-#include "gui/UIHelpers.h"
+#include "gui/UIHelpers.hpp"
 #include <algorithm>
 
 bool is_sct_format(const std::string &ext)

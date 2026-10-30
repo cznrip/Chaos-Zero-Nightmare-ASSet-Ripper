@@ -1,11 +1,11 @@
 #include <fstream>
 #include <vector>
 
-#include "gui/Popups.h"
-#include "gui/PreviewPanel.h"
-#include "gui/UIHelpers.h"
-#include "core/RipperOptions.h"
-#include "core/DialogPaths.h"
+#include "gui/Popups.hpp"
+#include "gui/PreviewPanel.hpp"
+#include "gui/UIHelpers.hpp"
+#include "core/RipperOptions.hpp"
+#include "core/DialogPaths.hpp"
 
 namespace {
     nk_style_button make_toggle_style(const nk_context *ctx, const bool is_on)

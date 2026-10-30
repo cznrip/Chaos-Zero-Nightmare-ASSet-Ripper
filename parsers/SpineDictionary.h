@@ -1,11 +1,11 @@
 #pragma once
-#include "Core.h"
+#include "Core.hpp"
 #include <string>
 #include <vector>
 #include <unordered_map>
 #include <map>
 #include <cstdint>
-#include "SCSPParser.h"
+#include "SCSPParser.hpp"
 
 class IArchive;
 

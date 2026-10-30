@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include "core/Core.h"
+#include "core/Core.hpp"
 
 class IPreviewLoader {
 public:

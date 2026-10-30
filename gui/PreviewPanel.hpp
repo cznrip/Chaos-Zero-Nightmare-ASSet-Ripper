@@ -1,6 +1,6 @@
 #pragma once
 
-#include "gui/AppState.h"
+#include "gui/AppState.hpp"
 #include <SDL.h>
 #include <string>
 

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "gui/AppState.h"
+#include "gui/AppState.hpp"
 
 void handle_node_click(const Core::FileNode *node, bool is_folder);
 

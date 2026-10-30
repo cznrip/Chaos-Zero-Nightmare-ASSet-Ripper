@@ -1,5 +1,5 @@
 #pragma once
-#include "core/Core.h"
+#include "core/Core.hpp"
 #include <vector>
 #include <string>
 #include <atomic>

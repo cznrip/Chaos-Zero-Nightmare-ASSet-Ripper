@@ -1,7 +1,7 @@
 #include "SpineDictionary.h"
-#include "archive/IArchive.h"
-#include "SCSPParser.h"
-#include "core/Logger.h"
+#include "archive/IArchive.hpp"
+#include "SCSPParser.hpp"
+#include "core/Logger.hpp"
 #include <algorithm>
 #include <sstream>
 #include <set>

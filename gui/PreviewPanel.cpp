@@ -1,12 +1,12 @@
-#include "gui/PreviewPanel.h"
-#include "gui/IPreviewLoader.h"
-#include "gui/UIHelpers.h"
-#include "core/Core.h"
-#include "core/FileTree.h"
-#include "parsers/SCTParser.h"
-#include "parsers/DBParser.h"
-#include "parsers/SCSPParser.h"
-#include "core/DialogPaths.h"
+#include "gui/PreviewPanel.hpp"
+#include "gui/IPreviewLoader.hpp"
+#include "gui/UIHelpers.hpp"
+#include "core/Core.hpp"
+#include "core/FileTree.hpp"
+#include "parsers/SCTParser.hpp"
+#include "parsers/DBParser.hpp"
+#include "parsers/SCSPParser.hpp"
+#include "core/DialogPaths.hpp"
 
 #include <GL/glew.h>
 #include <SDL_image.h>

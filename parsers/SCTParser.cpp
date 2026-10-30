@@ -1,9 +1,9 @@
-#include "SCTParser.h"
+#include "SCTParser.hpp"
 #include <iostream>
 #include <map>
 #include <algorithm>
 #include <stdexcept>
-#include "core/Logger.h"
+#include "core/Logger.hpp"
 
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image_write.h"

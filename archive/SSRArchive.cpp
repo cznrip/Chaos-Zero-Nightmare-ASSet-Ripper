@@ -1,6 +1,6 @@
-#include "SSRArchive.h"
-#include "core/Logger.h"
-#include "core/Core.h"
+#include "SSRArchive.hpp"
+#include "core/Logger.hpp"
+#include "core/Core.hpp"
 #include "libs/zstd/zstd.h"
 #include <filesystem>
 #include <fstream>

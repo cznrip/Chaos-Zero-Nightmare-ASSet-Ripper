@@ -1,7 +1,7 @@
-#include "parsers/SpineRenderer.h"
+#include "parsers/SpineRenderer.hpp"
 #include "parsers/SpineDictionary.h"
-#include "gui/AppState.h"
-#include "gui/PreviewPanel.h"
+#include "gui/AppState.hpp"
+#include "gui/PreviewPanel.hpp"
 
 AppState g_state;
 

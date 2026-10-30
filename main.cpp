@@ -1,5 +1,5 @@
 #define NOMINMAX
-#include "gui/App.h"
+#include "gui/App.hpp"
 
 int main(int argc, char *argv[])
 {
